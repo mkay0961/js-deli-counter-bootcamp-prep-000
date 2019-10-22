@@ -14,7 +14,7 @@ if (katzDeliLine.length === 0) {
 } else { for (var i = 0; i < katzDeliLine.length; i++) {
 var nowServing = katzDeliLine[0]
 katzDeliLine.shift()
-console.log(`Currently serving ${nowServing}.`)
+console.log(`Currently serving ${nowServing}`)
   return(`Currently serving ${nowServing}.`)
 }
 }

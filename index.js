@@ -15,7 +15,7 @@ if (katzDeliLine.length === 0) {
 var nowServing = katzDeliLine[0]
 katzDeliLine.shift()
 console.log(`Currently Serving ${nowServing}`)
-  return(`Currently Serving ${nowServing}.`)
+  return(`Currently serving ${nowServing}.`)
 }
 }
 

@@ -12,12 +12,12 @@ if (katzDeliLine.length === 0) {
   return ("There is nobody waiting to be served!")
 
 } else { for (var i = 0; i < katzDeliLine.length; i++) {
+var nowServing = katzDeliLine[0]
 katzDeliLine.shift()
 console.log(`Currently Serving ${katzDeliLine[i]}`)
-  return(`Currently Serving ${katzDeliLine[i]}`)
+  return(`Currently Serving ${nowServing[i]}`)
 }
 }
-
 
   }
 

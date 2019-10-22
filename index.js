@@ -31,7 +31,7 @@ var array = []
 
         return (`The line is currently: ${array}`)
       }
-    
+
     }
 
   }

@@ -10,7 +10,7 @@ return (`Welcome, ${name}. You are number ${katzDeliLine.length} in line.`)
 
 if (katzDeliLine.length === 0) {
   return ("There is nobody waiting to be served!")
-  
+
 } else { for (var i = 0; i < katzDeliLine.length+ i++) {
 
 console.log(`Currently Serving ${katzDeliLine[i]}`)
